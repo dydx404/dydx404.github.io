@@ -3,101 +3,149 @@ layout: default
 title: Home
 ---
 
+<!-- Edit this page to update the landing page content. Keep placeholders until details are ready. -->
+
 <section class="hero">
-  <div class="hero-text">
-    <p class="eyebrow">Imperial College London</p>
+  <div class="hero-copy">
+    <p class="eyebrow">Academic engineering portfolio</p>
     <h1>Yi Dong</h1>
-    <p class="headline">Electrical and Electronic Engineering student at Imperial College London</p>
-    <p class="focus">Interested in FPGA, embedded systems, real-time systems, hardware/software co-design, and signal processing.</p>
+    <p class="lead">Electrical and Electronic Engineering student at Imperial College London</p>
+    <p class="hero-note">Interested in FPGA, embedded systems, real-time systems, hardware/software co-design, and signal processing.</p>
+
     <div class="button-row">
-      <a class="button" href="https://github.com/dydx404">GitHub</a>
+      <a class="button primary" href="https://github.com/dydx404">GitHub</a>
+      <a class="button" href="{{ '/projects/' | relative_url }}">Projects</a>
       <a class="button" href="{{ '/cv/' | relative_url }}">CV</a>
       <a class="button" href="mailto:your-email@example.com">Email</a>
-      <a class="button" href="{{ '/projects/' | relative_url }}">Projects</a>
     </div>
   </div>
-  <img class="profile-image" src="{{ '/assets/img/profile-placeholder.png' | relative_url }}" alt="Profile placeholder for Yi Dong">
+
+  <figure class="profile-card">
+    <img src="{{ '/assets/img/profile-placeholder.jpg' | relative_url }}" alt="Profile placeholder for Yi Dong">
+    <figcaption>[Replace with a profile photo]</figcaption>
+  </figure>
 </section>
 
-## About
-
-I am an Electrical and Electronic Engineering student at Imperial College London. My engineering interests sit around FPGA acceleration, embedded systems, real-time data movement, and the practical integration work needed to make hardware and software behave as one system.
-
-I enjoy projects involving programmable logic, microcontrollers, Linux-based control, signal processing, and communication between devices.
-
-## Timeline
-
-<div class="timeline">
-  <div class="timeline-item">
-    <span class="timeline-date">2023 -- Present</span>
-    <div>
-      <strong>BEng/MEng Electrical and Electronic Engineering, Imperial College London</strong>
-      <p>Undergraduate study in electrical, electronic, digital, and systems engineering.</p>
-    </div>
+<section class="section">
+  <div class="section-heading">
+    <p class="section-label">About</p>
+    <h2>Short Introduction</h2>
   </div>
-  <div class="timeline-item">
-    <span class="timeline-date">2026 Summer</span>
-    <div>
-      <strong>Seeking internship in China</strong>
-      <p>Focused on FPGA, embedded systems, digital design, robotics, and systems engineering roles.</p>
-    </div>
+  <div class="section-body prose">
+    <p>[Short bio here. Mention your degree, engineering interests, and what kinds of systems you enjoy building.]</p>
+    <p>Example focus: FPGA acceleration, embedded sensing, Linux-based control, real-time data movement, and practical hardware/software integration.</p>
   </div>
-  <div class="timeline-item">
-    <span class="timeline-date">2025 -- 2026</span>
-    <div>
-      <strong>Information Processing / FPGA Wand Project</strong>
-      <p>Working with PYNQ-Z1 / Zynq-7000, PS-PL co-design, AXI DMA, AXI-Stream, and real-time image processing.</p>
-    </div>
+</section>
+
+<section class="section">
+  <div class="section-heading">
+    <p class="section-label">Timeline</p>
+    <h2>Education and Current Work</h2>
   </div>
-  <div class="timeline-item">
-    <span class="timeline-date">2024 -- Present</span>
-    <div>
-      <strong>Embedded systems and hardware projects</strong>
-      <p>Hands-on projects using ESP32, sensors, ECG acquisition, displays, IoT architecture, and signal-processing pipelines.</p>
-    </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <span class="timeline-date">2023 -- Present</span>
+      <div>
+        <h3>BEng/MEng Electrical and Electronic Engineering</h3>
+        <p>Imperial College London. [Add degree details, modules, or academic focus here.]</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <span class="timeline-date">2026 Summer</span>
+      <div>
+        <h3>Internship Search</h3>
+        <p>[Insert internship details here. Example: seeking FPGA / embedded systems / digital design internships in China.]</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <span class="timeline-date">2025 -- 2026</span>
+      <div>
+        <h3>Information Processing / FPGA Wand Project</h3>
+        <p>[Describe your FPGA project here. Mention PYNQ-Z1 / Zynq-7000, AXI DMA, AXI-Stream, and real-time image processing if relevant.]</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <span class="timeline-date">2024 -- Present</span>
+      <div>
+        <h3>Embedded Systems and Hardware Projects</h3>
+        <p>[Summarize ESP32, sensors, ECG, IoT, robotics, or control-system projects here.]</p>
+      </div>
+    </article>
   </div>
-</div>
+</section>
 
-## Featured Projects
+<section class="section">
+  <div class="section-heading">
+    <p class="section-label">Projects</p>
+    <h2>Featured Engineering Work</h2>
+  </div>
+  <div class="project-grid">
+    <article class="project-card">
+      <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="FPGA project placeholder">
+      <div class="project-card-body">
+        <h3>FPGA Wand System</h3>
+        <p>[Describe your FPGA project here.]</p>
+        <div class="tag-list compact">
+          <span>PYNQ-Z1</span>
+          <span>Zynq-7000</span>
+          <span>AXI DMA</span>
+          <span>AXI-Stream</span>
+        </div>
+      </div>
+    </article>
+    <article class="project-card">
+      <img src="{{ '/assets/img/embedded-project-placeholder.jpg' | relative_url }}" alt="Embedded project placeholder">
+      <div class="project-card-body">
+        <h3>ESP32 Smart Balcony / IoT System</h3>
+        <p>[Describe your embedded or IoT project here.]</p>
+        <div class="tag-list compact">
+          <span>ESP32</span>
+          <span>Sensors</span>
+          <span>Telemetry</span>
+        </div>
+      </div>
+    </article>
+    <article class="project-card">
+      <img src="{{ '/assets/img/ecg-project-placeholder.jpg' | relative_url }}" alt="ECG project placeholder">
+      <div class="project-card-body">
+        <h3>ECG Monitor</h3>
+        <p>[Describe your ECG or signal-processing project here.]</p>
+        <div class="tag-list compact">
+          <span>AD8232</span>
+          <span>ESP32</span>
+          <span>Signal Processing</span>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
 
-<div class="project-grid">
-  <article class="project-card">
-    <h3>FPGA Wand System</h3>
-    <p>Real-time FPGA-accelerated image-processing system on PYNQ-Z1 / Zynq-7000.</p>
-    <p class="meta">PYNQ-Z1, Zynq-7000, PS-PL co-design, AXI DMA, AXI-Stream, OpenCV, UDP</p>
-  </article>
-  <article class="project-card">
-    <h3>ESP32 Smart Balcony / IoT System</h3>
-    <p>Distributed low-power sensing system for plant monitoring and wireless telemetry.</p>
-    <p class="meta">ESP32, battery-powered nodes, soil moisture sensing, wireless telemetry, e-ink / OLED ideas</p>
-  </article>
-  <article class="project-card">
-    <h3>ECG Monitor</h3>
-    <p>Embedded ECG acquisition and display system with real-time waveform processing.</p>
-    <p class="meta">AD8232, ESP32 / ESP8266, OLED waveform display, Pan-Tompkins, BPM estimation</p>
-  </article>
-</div>
+<section class="section two-column">
+  <div>
+    <p class="section-label">Technical Interests</p>
+    <h2>Areas to Customize</h2>
+  </div>
+  <div class="tag-list">
+    <span>C</span>
+    <span>C++</span>
+    <span>Python</span>
+    <span>Linux</span>
+    <span>SystemVerilog</span>
+    <span>FPGA</span>
+    <span>Zynq</span>
+    <span>PYNQ</span>
+    <span>AXI DMA</span>
+    <span>AXI-Stream</span>
+    <span>ESP32</span>
+    <span>OpenCV</span>
+    <span>Signal Processing</span>
+    <span>Control Systems</span>
+    <span>Networking / UDP</span>
+  </div>
+</section>
 
-## Technical Interests
-
-<div class="tag-list">
-  <span>C</span>
-  <span>C++</span>
-  <span>Python</span>
-  <span>Linux</span>
-  <span>SystemVerilog</span>
-  <span>FPGA</span>
-  <span>Zynq</span>
-  <span>PYNQ</span>
-  <span>AXI DMA</span>
-  <span>AXI-Stream</span>
-  <span>ESP32</span>
-  <span>OpenCV</span>
-  <span>Signal Processing</span>
-  <span>Control Systems</span>
-  <span>Networking / UDP</span>
-</div>
-
-## Current Goal
-
-I am looking for internship opportunities in China from **after June 18 to early October**, especially in FPGA engineering, embedded systems, digital design, robotics, and systems engineering.
+<section class="section callout">
+  <p class="section-label">Current Focus</p>
+  <h2>[Insert current focus here]</h2>
+  <p>[Example: seeking internship opportunities in China from after June 18 to early October, with interest in FPGA, embedded systems, digital design, robotics, and systems engineering.]</p>
+</section>

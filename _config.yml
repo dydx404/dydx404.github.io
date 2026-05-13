@@ -1,17 +1,30 @@
-title: Yi Dong
-description: Electrical and Electronic Engineering student at Imperial College London
+# Basic site settings for GitHub Pages.
+# Edit these values first when personalizing the website.
+title: "Yi Dong | Engineering Portfolio"
+description: "Academic engineering portfolio placeholder for FPGA, embedded systems, and systems engineering."
 url: "https://dydx404.github.io"
 baseurl: ""
 
 author:
-  name: Yi Dong
-  github: dydx404
-  email: your-email@example.com
-  linkedin: Add LinkedIn URL
+  name: "Yi Dong"
+  headline: "Electrical and Electronic Engineering student at Imperial College London"
+  github: "dydx404"
+  email: "your-email@example.com"
+  linkedin: "Add LinkedIn URL"
+
+# Navigation links used by _layouts/default.html.
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Contact"
+    url: "/contact/"
 
 markdown: kramdown
 highlighter: rouge
-
 permalink: pretty
 
 exclude:

@@ -4,20 +4,25 @@ title: Contact
 permalink: /contact/
 ---
 
-# Contact
+<!-- Replace placeholder email and LinkedIn values before sharing widely. -->
 
-I am currently looking for internship opportunities in China from **after June 18 to early October**, especially in FPGA engineering, embedded systems, digital design, robotics, and systems engineering.
+<header class="page-header">
+  <p class="eyebrow">Contact</p>
+  <h1>Get in Touch</h1>
+  <p>[Short contact note. Example: I am open to internship conversations in FPGA, embedded systems, digital design, robotics, and systems engineering.]</p>
+</header>
 
-## Links
+<section class="contact-card">
+  <h2>Links</h2>
+  <ul class="contact-list">
+    <li><span>GitHub</span><a href="https://github.com/dydx404">https://github.com/dydx404</a></li>
+    <li><span>Email</span><a href="mailto:your-email@example.com">your-email@example.com</a></li>
+    <li><span>LinkedIn</span><a href="#">Add LinkedIn URL</a></li>
+  </ul>
+</section>
 
-- GitHub: [https://github.com/dydx404](https://github.com/dydx404)
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: `Add LinkedIn URL`
-
-## Areas of Interest
-
-- FPGA and programmable logic
-- Embedded systems and microcontrollers
-- Digital design and RTL
-- Robotics and real-time systems
-- Systems engineering and infrastructure
+<section class="section callout">
+  <p class="section-label">Availability</p>
+  <h2>[Insert internship availability here]</h2>
+  <p>Example: available in China from after June 18 to early October for FPGA, embedded systems, digital design, robotics, or systems engineering internships.</p>
+</section>

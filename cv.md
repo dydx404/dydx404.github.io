@@ -4,48 +4,84 @@ title: CV
 permalink: /cv/
 ---
 
-# CV
+<!-- Keep this page concise. Replace placeholders as your CV becomes ready. -->
 
-<p class="notice">Download CV: <a href="#">PDF placeholder</a></p>
+<header class="page-header">
+  <p class="eyebrow">Curriculum vitae</p>
+  <h1>CV</h1>
+  <p>[One-sentence CV summary here.]</p>
+  <a class="button primary" href="#">Download CV placeholder</a>
+</header>
 
-## Education
+<section class="cv-section">
+  <h2>Education</h2>
+  <div class="cv-item">
+    <div class="cv-date">2023 -- Present</div>
+    <div>
+      <h3>Imperial College London</h3>
+      <p>BEng/MEng Electrical and Electronic Engineering. [Add degree stream, expected graduation, or relevant academic details here.]</p>
+    </div>
+  </div>
+</section>
 
-**Imperial College London**  
-BEng/MEng Electrical and Electronic Engineering  
-2023 -- Present
+<section class="cv-section">
+  <h2>Technical Skills</h2>
+  <div class="skill-grid">
+    <div>
+      <h3>Programming</h3>
+      <p>C, C++, Python, [Add more here]</p>
+    </div>
+    <div>
+      <h3>Digital / FPGA</h3>
+      <p>SystemVerilog, FPGA, Zynq, PYNQ, AXI DMA, AXI-Stream</p>
+    </div>
+    <div>
+      <h3>Embedded / Systems</h3>
+      <p>ESP32, Linux, sensors, networking / UDP, [Add more here]</p>
+    </div>
+    <div>
+      <h3>Signal / Control</h3>
+      <p>OpenCV, signal processing, control systems, [Add more here]</p>
+    </div>
+  </div>
+</section>
 
-## Technical Skills
+<section class="cv-section">
+  <h2>Projects</h2>
+  <div class="cv-item">
+    <div class="cv-date">[Date]</div>
+    <div>
+      <h3>FPGA Wand System</h3>
+      <p>[Describe your FPGA project here. Keep the description specific and outcome-oriented.]</p>
+    </div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">[Date]</div>
+    <div>
+      <h3>ESP32 Smart Balcony / IoT System</h3>
+      <p>[Describe your embedded systems project here.]</p>
+    </div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">[Date]</div>
+    <div>
+      <h3>ECG Monitor</h3>
+      <p>[Describe your ECG monitor project here.]</p>
+    </div>
+  </div>
+</section>
 
-**Programming:** C, C++, Python  
-**Digital systems:** SystemVerilog, FPGA, Zynq, PYNQ, AXI DMA, AXI-Stream  
-**Embedded systems:** ESP32, sensors, OLED / e-ink display concepts, low-power sensing  
-**Systems:** Linux, networking, UDP communication  
-**Signal / control:** OpenCV, signal processing, control systems
+<section class="cv-section">
+  <h2>Coursework</h2>
+  <p>[Add relevant coursework here. Examples: digital systems, computer architecture, signal processing, control systems, information processing, embedded systems.]</p>
+</section>
 
-## Projects
+<section class="cv-section">
+  <h2>Experience</h2>
+  <p>[Add work experience, research experience, lab work, societies, or project activities here. Leave blank or placeholder-only until confirmed.]</p>
+</section>
 
-**FPGA Wand System**  
-Real-time FPGA-accelerated image-processing system using PYNQ-Z1 / Zynq-7000, AXI DMA, AXI-Stream, OpenCV, and UDP communication.
-
-**ESP32 Smart Balcony / IoT System**  
-Distributed low-power sensing system for plant monitoring using ESP32 sensor nodes, soil moisture sensing, and wireless telemetry.
-
-**ECG Monitor**  
-Embedded ECG monitoring system using AD8232, ESP32 / ESP8266, OLED waveform rendering, Pan-Tompkins R-wave detection, and BPM estimation.
-
-## Coursework
-
-- Electrical and electronic engineering fundamentals
-- Digital systems and computer architecture
-- Signal processing
-- Control systems
-- Information processing
-- Embedded systems and real-time system design
-
-## Experience / Activities
-
-Project-based engineering experience through Imperial coursework and independent hardware/software projects. Current focus is on FPGA, embedded systems, real-time pipelines, and system integration.
-
-## Internship Availability
-
-Available for internship opportunities in China from **after June 18 to early October**, with interest in FPGA, embedded systems, digital design, robotics, and systems engineering.
+<section class="cv-section">
+  <h2>Awards</h2>
+  <p>[Add awards here only if confirmed. Otherwise keep this placeholder or remove the section.]</p>
+</section>

@@ -1,53 +1,47 @@
 # Yi Dong Personal Website
 
-This repository contains the source for [https://dydx404.github.io](https://dydx404.github.io), a minimalist academic-engineering portfolio built with GitHub Pages and Jekyll.
+Source for [https://dydx404.github.io](https://dydx404.github.io), a minimalist academic-engineering portfolio built with plain Jekyll and GitHub Pages.
 
-## Structure
+## Editing Guide
 
-```text
-.
-|-- _config.yml
-|-- _layouts/
-|   `-- default.html
-|-- index.md
-|-- projects.md
-|-- cv.md
-|-- contact.md
-|-- assets/
-|   |-- css/
-|   |   `-- style.css
-|   `-- img/
-|       |-- profile-placeholder.png
-|       `-- project-placeholder.png
-`-- README.md
+- `_config.yml`: site title, description, author details, and navigation.
+- `_layouts/default.html`: shared page shell, navigation bar, and footer.
+- `index.md`: homepage sections.
+- `projects.md`: project cards and repository links.
+- `cv.md`: CV-style page.
+- `contact.md`: contact links and availability.
+- `assets/css/style.css`: visual design.
+- `assets/img/`: profile and project placeholder images.
+
+Most content is intentionally written as placeholders so the site owner can fill in confirmed details later.
+
+## Local Development
+
+GitHub Pages can build this repository directly. If you have Ruby and Jekyll installed locally, run:
+
+```bash
+bundle exec jekyll serve
 ```
 
-## Editing
+This repository does not require Node.js, React, Tailwind, Bootstrap, or a custom build pipeline.
 
-- Edit `index.md` for the homepage.
-- Edit `projects.md` for project cards and repository links.
-- Edit `cv.md` for CV-style content.
-- Edit `contact.md` for email, LinkedIn, and availability details.
-- Edit `assets/css/style.css` for typography, spacing, and colors.
+## GitHub Pages Deployment
 
-## Deploying With GitHub Pages
-
-For a user site, the repository must be named:
+The repository name should be:
 
 ```text
 dydx404.github.io
 ```
 
-Push the repository to GitHub under the `dydx404` account. GitHub Pages will serve the site at:
+GitHub Pages serves the site at:
 
 ```text
 https://dydx404.github.io
 ```
 
-If Pages is not enabled automatically, open the repository settings on GitHub, go to **Pages**, and select:
+If Pages is not enabled automatically:
 
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/`
-
-No Node.js or custom build pipeline is required.
+1. Open the repository settings on GitHub.
+2. Go to **Pages**.
+3. Select **Deploy from a branch**.
+4. Choose branch `main` and folder `/`.
