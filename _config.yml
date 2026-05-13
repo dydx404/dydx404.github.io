@@ -1,0 +1,18 @@
+title: Yi Dong
+description: Electrical and Electronic Engineering student at Imperial College London
+url: "https://dydx404.github.io"
+baseurl: ""
+
+author:
+  name: Yi Dong
+  github: dydx404
+  email: your-email@example.com
+  linkedin: Add LinkedIn URL
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: pretty
+
+exclude:
+  - README.md
