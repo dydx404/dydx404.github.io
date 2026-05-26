@@ -414,6 +414,10 @@ h3 {
   padding: 18px 0 42px;
 }
 
+.cv-hero {
+  padding-bottom: 34px;
+}
+
 .page-header h1 {
   font-size: clamp(2rem, 5vw, 3.15rem);
 }
@@ -425,6 +429,10 @@ h3 {
 
 .page-header .button {
   margin-top: 20px;
+}
+
+.cv-hero .button {
+  margin-top: 0;
 }
 
 .project-list {
@@ -478,6 +486,76 @@ h3 {
 
 .cv-section h2 {
   margin-bottom: 18px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.portfolio-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.portfolio-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.portfolio-card h3 {
+  max-width: 560px;
+}
+
+.card-meta,
+.tech-line {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.card-meta {
+  margin: 4px 0 0;
+}
+
+.tech-line {
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  font-size: 0.92rem;
+}
+
+.compact-list {
+  color: var(--muted);
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.compact-list li + li {
+  margin-top: 6px;
+}
+
+.compact-cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.contact-mini-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  color: var(--muted);
 }
 
 .cv-item {
@@ -583,8 +661,15 @@ h3 {
   }
 
   .project-grid,
-  .skill-grid {
+  .skill-grid,
+  .portfolio-grid,
+  .compact-cards {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio-card-header {
+    display: grid;
+    gap: 8px;
   }
 }
 

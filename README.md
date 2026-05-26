@@ -12,6 +12,7 @@ Source for [https://dydx404.github.io](https://dydx404.github.io), a minimalist 
 - `contact.md`: contact links and availability.
 - `assets/css/style.css`: visual design.
 - `assets/img/`: profile and project placeholder images.
+- `assets/resume/`: downloadable resume PDFs linked from the CV landing page.
 
 The current content highlights Yi Dong's Imperial EIE background, FPGA/SoC projects, embedded Linux and systems programming work, and contact information.
 
