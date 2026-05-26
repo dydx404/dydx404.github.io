@@ -1,6 +1,6 @@
 # Yi Dong Personal Website
 
-Source for [https://dydx404.github.io](https://dydx404.github.io), a minimalist academic-engineering portfolio built with plain Jekyll and GitHub Pages.
+Source for [https://dydx404.github.io](https://dydx404.github.io), a minimalist engineering portfolio built with plain Jekyll and GitHub Pages.
 
 ## Editing Guide
 
@@ -13,7 +13,7 @@ Source for [https://dydx404.github.io](https://dydx404.github.io), a minimalist 
 - `assets/css/style.css`: visual design.
 - `assets/img/`: profile and project placeholder images.
 
-Most content is intentionally written as placeholders so the site owner can fill in confirmed details later.
+The current content highlights Yi Dong's Imperial EIE background, FPGA/SoC projects, embedded Linux and systems programming work, and contact information.
 
 ## Local Development
 

@@ -4,22 +4,20 @@ title: CV
 permalink: /cv/
 ---
 
-<!-- Keep this page concise. Replace placeholders as your CV becomes ready. -->
-
 <header class="page-header">
   <p class="eyebrow">Curriculum vitae</p>
   <h1>CV</h1>
-  <p>[One-sentence CV summary here.]</p>
-  <a class="button primary" href="#">Download CV placeholder</a>
+  <p>Imperial College London MEng Electronic and Information Engineering student focused on FPGA systems, embedded Linux, SoC integration, RTL prototyping, and practical system debugging.</p>
+  <a class="button primary" href="mailto:yd1723@ic.ac.uk">Request resume PDF</a>
 </header>
 
 <section class="cv-section">
   <h2>Education</h2>
   <div class="cv-item">
-    <div class="cv-date">2023 -- Present</div>
+    <div class="cv-date">2024 -- 2028</div>
     <div>
       <h3>Imperial College London</h3>
-      <p>BEng/MEng Electrical and Electronic Engineering. [Add degree stream, expected graduation, or relevant academic details here.]</p>
+      <p>MEng Electronic and Information Engineering. Relevant coursework includes Digital Electronics, Computer Architecture, Signals and Systems, Communications, Control Systems, Embedded Systems, Mathematics for Engineers, and Software Systems.</p>
     </div>
   </div>
 </section>
@@ -28,60 +26,64 @@ permalink: /cv/
   <h2>Technical Skills</h2>
   <div class="skill-grid">
     <div>
-      <h3>Programming</h3>
-      <p>C, C++, Python, [Add more here]</p>
-    </div>
-    <div>
-      <h3>Digital / FPGA</h3>
-      <p>SystemVerilog, FPGA, Zynq, PYNQ, AXI DMA, AXI-Stream</p>
+      <h3>FPGA / Digital Design</h3>
+      <p>SystemVerilog, Verilog, FSMs, RTL datapaths, pipelined CPU basics, AXI4-Stream/Lite basics, AXI DMA usage, BRAM/FIFO basics, Vivado</p>
     </div>
     <div>
       <h3>Embedded / Systems</h3>
-      <p>ESP32, Linux, sensors, networking / UDP, [Add more here]</p>
+      <p>C/C++, Python, Bash, Linux, OpenCV, UDP sockets, PYNQ-Z1, Zynq-7000, PS/PL integration, ESP32</p>
     </div>
     <div>
-      <h3>Signal / Control</h3>
-      <p>OpenCV, signal processing, control systems, [Add more here]</p>
+      <h3>Verification / Debugging</h3>
+      <p>Verilator, Icarus Verilog, Vivado/XSim, waveform debugging, directed tests, Python reference models, Git</p>
+    </div>
+    <div>
+      <h3>Systems Programming</h3>
+      <p>Unix process model basics, fork/exec, pipes, I/O redirection, socket programming, Makefile basics</p>
     </div>
   </div>
 </section>
 
 <section class="cv-section">
-  <h2>Projects</h2>
+  <h2>Selected Projects</h2>
   <div class="cv-item">
-    <div class="cv-date">[Date]</div>
+    <div class="cv-date">Feb 2026 -- Mar 2026</div>
     <div>
-      <h3>FPGA Wand System</h3>
-      <p>[Describe your FPGA project here. Keep the description specific and outcome-oriented.]</p>
-    </div>
-  </div>
-  <div class="cv-item">
-    <div class="cv-date">[Date]</div>
-    <div>
-      <h3>ESP32 Smart Balcony / IoT System</h3>
-      <p>[Describe your embedded systems project here.]</p>
+      <h3>FPGA Wand / PYNQ-Z1 Vision System</h3>
+      <p>Built a PYNQ-Z1 vision prototype integrating OpenCV camera capture, AXI DMA transfer, FPGA-side centroid extraction logic, MMIO readback, Linux/Python runtime control, and UDP point streaming. Debugged camera startup, DMA behavior, overlay/HWH mismatch, duplicate-frame behavior, and threshold noise during bring-up.</p>
     </div>
   </div>
   <div class="cv-item">
-    <div class="cv-date">[Date]</div>
+    <div class="cv-date">May 2026 -- Present</div>
     <div>
-      <h3>ECG Monitor</h3>
-      <p>[Describe your ECG monitor project here.]</p>
+      <h3>EE_Acceleration / Electromagnetic FDTD FPGA Accelerator</h3>
+      <p>Exploring fixed-point FPGA implementation for FDTD simulation using SystemVerilog, Q3.13 arithmetic, BRAM field storage, CORDIC source generation, Python-assisted verification, and Vivado/XSim implementation flow.</p>
+    </div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">Nov 2025 -- Dec 2025</div>
+    <div>
+      <h3>RV32I Pipelined CPU with Cache</h3>
+      <p>Implemented and tested a simplified RV32I pipeline with forwarding, load-use hazard handling, stall/flush control, byte-addressable memory, and experimental cache/refill paths using Verilator, directed assembly, and waveform debugging.</p>
+    </div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">Nov 2025</div>
+    <div>
+      <h3>Mini-Shell / Linux Systems Programming</h3>
+      <p>Implemented a simplified Linux shell supporting command parsing, fork/exec, cd, pipes, and I/O redirection; debugged child-process reaping, file descriptor handling, nested parsing, and line-editor behavior.</p>
+    </div>
+  </div>
+  <div class="cv-item">
+    <div class="cv-date">Exploration</div>
+    <div>
+      <h3>UDP Chat, Smart Balcony, and ECG Prototypes</h3>
+      <p>Built small systems projects covering UDP socket communication, send/receive thread separation, ESP32 GPIO/PWM and sensor/actuator experiments, and ESP8266/AD8232/OLED ECG acquisition/display prototyping.</p>
     </div>
   </div>
 </section>
 
 <section class="cv-section">
-  <h2>Coursework</h2>
-  <p>[Add relevant coursework here. Examples: digital systems, computer architecture, signal processing, control systems, information processing, embedded systems.]</p>
-</section>
-
-<section class="cv-section">
-  <h2>Experience</h2>
-  <p>[Add work experience, research experience, lab work, societies, or project activities here. Leave blank or placeholder-only until confirmed.]</p>
-</section>
-
-<section class="cv-section">
-  <h2>Awards</h2>
-  <p>[Add awards here only if confirmed. Otherwise keep this placeholder or remove the section.]</p>
+  <h2>Current Internship Direction</h2>
+  <p>Interested in FPGA, embedded Linux, SoC, RTL/digital design, MCU/device integration, and hardware/software co-design internships. I am strongest in practical implementation, system bring-up, and debugging across hardware/software boundaries.</p>
 </section>
