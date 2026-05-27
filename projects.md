@@ -38,7 +38,7 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="EE Acceleration FDTD FPGA project preview">
+    <img src="{{ '/assets/img/project-ee-acceleration.jpg' | relative_url }}" alt="EE Acceleration FDTD FPGA project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>EE_Acceleration / Electromagnetic FDTD FPGA Accelerator</h2>
@@ -62,7 +62,7 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="RV32I CPU project preview">
+    <img src="{{ '/assets/img/project-rv32i-cpu.jpg' | relative_url }}" alt="RV32I CPU project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>RV32I Pipelined CPU with Cache</h2>
@@ -85,7 +85,7 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/embedded-project-placeholder.jpg' | relative_url }}" alt="Mini-Shell project preview">
+    <img src="{{ '/assets/img/project-mini-shell.png' | relative_url }}" alt="Mini-Shell project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>Mini-Shell / Linux Systems Programming</h2>
@@ -106,7 +106,7 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/embedded-project-placeholder.jpg' | relative_url }}" alt="UDP multithreaded chat project preview">
+    <img src="{{ '/assets/img/project-udp-network.jpg' | relative_url }}" alt="UDP multithreaded chat project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>UDP Multithreaded Chat / Network Programming Exploration</h2>
@@ -123,7 +123,7 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/embedded-project-placeholder.jpg' | relative_url }}" alt="Smart Balcony embedded exploration preview">
+    <img src="{{ '/assets/img/project-smart-balcony.jpg' | relative_url }}" alt="Smart Balcony embedded exploration preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>Smart Balcony Embedded Exploration</h2>
@@ -141,7 +141,7 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/ecg-project-placeholder.jpg' | relative_url }}" alt="ECG monitor project preview">
+    <img src="{{ '/assets/img/project-ecg.jpg' | relative_url }}" alt="ECG monitor project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>ECG Monitor with ESP8266, AD8232, and OLED</h2>

@@ -93,7 +93,7 @@ title: Home
       </div>
     </article>
     <article class="project-card">
-      <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="FDTD FPGA project preview">
+      <img src="{{ '/assets/img/project-ee-acceleration.jpg' | relative_url }}" alt="FDTD FPGA project preview">
       <div class="project-card-body">
         <h3>EE_Acceleration / FDTD FPGA Accelerator</h3>
         <p>Current SystemVerilog exploration of fixed-point FDTD solver datapaths, BRAM field storage, CORDIC source generation, and Vivado timing/implementation flow.</p>
@@ -107,7 +107,7 @@ title: Home
       </div>
     </article>
     <article class="project-card">
-      <img src="{{ '/assets/img/embedded-project-placeholder.jpg' | relative_url }}" alt="Systems programming project preview">
+      <img src="{{ '/assets/img/project-mini-shell.png' | relative_url }}" alt="Systems programming project preview">
       <div class="project-card-body">
         <h3>Linux and Embedded Systems Projects</h3>
         <p>Mini-Shell, UDP socket chat, ESP32 automation experiments, and ECG prototyping, focused on practical systems programming and device-level debugging.</p>

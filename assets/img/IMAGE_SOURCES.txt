@@ -1,0 +1,36 @@
+Project image sources
+=====================
+
+These images are used as project-card preview images on the portfolio site.
+Check each Wikimedia Commons page for the full current license and attribution
+details before reusing the images outside this website.
+
+project-ee-acceleration.jpg
+  Source: https://commons.wikimedia.org/wiki/File:Circuit-board-1.jpg
+  License: CC0
+  Author: MartinThoma
+
+project-rv32i-cpu.jpg
+  Source: https://commons.wikimedia.org/wiki/File:IC_circuit_chip_board.JPG
+  License: Public domain
+  Author: Kimmo Palosaari
+
+project-mini-shell.png
+  Source: https://commons.wikimedia.org/wiki/File:BSD-unix-top-plain.png
+  License: Public domain
+  Author: Ivan Voras
+
+project-udp-network.jpg
+  Source: https://commons.wikimedia.org/wiki/File:EthernetCableGreen.jpg
+  License: CC0
+  Author: Raysonho @ Open Grid Scheduler / Grid Engine
+
+project-smart-balcony.jpg
+  Source: https://commons.wikimedia.org/wiki/File:ESP32_Espressif_ESP-WROOM-32_Dev_Board_(2).jpg
+  License: CC0
+  Author: Ubahnverleih
+
+project-ecg.jpg
+  Source: https://commons.wikimedia.org/wiki/File:Signal_ecg.jpg
+  License: Public domain
+  Author: ixellence GmbH
