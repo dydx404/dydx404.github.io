@@ -12,7 +12,7 @@ permalink: /projects/
 
 <section class="project-list">
   <article class="project-entry">
-    <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="FPGA Wand project preview">
+    <img src="{{ '/assets/img/FPGA_WANd.jpg' | relative_url }}" alt="FPGA Wand project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
         <h2>FPGA Wand / PYNQ-Z1 Vision System</h2>

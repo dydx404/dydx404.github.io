@@ -79,7 +79,7 @@ title: Home
   </div>
   <div class="project-grid">
     <article class="project-card">
-      <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="FPGA project preview">
+      <img src="{{ '/assets/img/FPGA_WANd.jpg' | relative_url }}" alt="FPGA Wand project preview">
       <div class="project-card-body">
         <h3>FPGA Wand / PYNQ-Z1 Vision System</h3>
         <p>End-to-end FPGA and Linux vision prototype using OpenCV, AXI DMA, custom RTL centroid logic, MMIO readback, and UDP communication.</p>
