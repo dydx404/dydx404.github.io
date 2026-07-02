@@ -12,6 +12,32 @@ permalink: /projects/
 
 <section class="project-list">
   <article class="project-entry">
+    <img src="{{ '/assets/img/project-ee-acceleration.jpg' | relative_url }}" alt="Electromagnetic FDTD FPGA accelerator project preview">
+    <div class="project-entry-body">
+      <div class="project-entry-header">
+        <h2>Real-Time Electromagnetic FDTD Accelerator with 3D HDMI Renderer</h2>
+        <a href="https://github.com/TahaMunir2/ElectroMagnetic-FPGA-3D-Renderer">GitHub</a>
+      </div>
+      <p><strong>Feb 2026 -- Jun 2026.</strong> Built and hardware-validated a 2D FDTD electromagnetic solver on PYNQ-Z1, integrated with a 3D ray-march renderer that drives a live propagating EM wave out to HDMI, with runtime control from the PS.</p>
+      <ul>
+        <li>Implemented the solver in Q3.13 fixed point with a CORDIC source, PML absorbing boundaries, and ping-pong BRAM field buffers, scaled from 64x64 to a 128x128 four-lane engine.</li>
+        <li>Integrated a 3D ray-march renderer (100 MHz core, async-FIFO crossing to a 25 MHz pixel domain) driving HDMI via rgb2dvi, and exposed PS/Python runtime control over AXI GPIO for Q3.13 camera vectors, source amplitude, display mode, and height scale without rebuilds.</li>
+        <li>Closed timing at 100 MHz (WNS +0.393 ns, BRAM 105/140, DSP 179/220) and debugged real hardware issues: an unbounded free-run energy runaway (fixed with a soft source), a silent AXI address-map reordering bug, and a power-of-two march-step constraint that had exploded DSP usage.</li>
+      </ul>
+      <div class="tag-list compact">
+        <span>SystemVerilog</span>
+        <span>Zynq-7020 / PYNQ-Z1</span>
+        <span>Q3.13 fixed point</span>
+        <span>CORDIC</span>
+        <span>PML</span>
+        <span>BRAM</span>
+        <span>AXI GPIO</span>
+        <span>HDMI</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-entry">
     <img src="{{ '/assets/img/FPGA_WANd.jpg' | relative_url }}" alt="FPGA Wand project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
@@ -38,30 +64,6 @@ permalink: /projects/
   </article>
 
   <article class="project-entry">
-    <img src="{{ '/assets/img/project-ee-acceleration.jpg' | relative_url }}" alt="EE Acceleration FDTD FPGA project preview">
-    <div class="project-entry-body">
-      <div class="project-entry-header">
-        <h2>EE_Acceleration / Electromagnetic FDTD FPGA Accelerator</h2>
-        <a href="https://github.com/TahaMunir2/ElectroMagnetic-FPGA-3D-Renderer">GitHub</a>
-      </div>
-      <p><strong>May 2026 -- Present.</strong> Current FPGA implementation exploration for an FDTD electromagnetic simulation project, focused on fixed-point datapaths, BRAM-backed field storage, and SystemVerilog module integration.</p>
-      <ul>
-        <li>Implemented Q3.13 RTL blocks for field update logic, CORDIC-based source generation, top-level control, and early solver/renderer interface wiring.</li>
-        <li>Built Python-assisted verification using Icarus Verilog, Verilator, Yosys, and Vivado/XSim while iterating a small 1D solver prototype.</li>
-        <li>Ran Vivado implementation for the 1D top at 100 MHz and recorded WNS/resource results while extending toward 2D solver and render-buffer integration.</li>
-      </ul>
-      <div class="tag-list compact">
-        <span>SystemVerilog</span>
-        <span>Vivado/XSim</span>
-        <span>Q3.13 fixed point</span>
-        <span>BRAM</span>
-        <span>CORDIC</span>
-        <span>FDTD</span>
-      </div>
-    </div>
-  </article>
-
-  <article class="project-entry">
     <img src="{{ '/assets/img/project-rv32i-cpu.jpg' | relative_url }}" alt="RV32I CPU project preview">
     <div class="project-entry-body">
       <div class="project-entry-header">
@@ -80,6 +82,29 @@ permalink: /projects/
         <span>cache</span>
         <span>Verilator</span>
         <span>waveforms</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="project-entry">
+    <img src="{{ '/assets/img/fpga-project-placeholder.jpg' | relative_url }}" alt="GTX transceiver loopback project preview">
+    <div class="project-entry-body">
+      <div class="project-entry-header">
+        <h2>GTX High-Speed Serial Transceiver Loopback (Self-Directed Exploration)</h2>
+        <span>Simulation, in progress</span>
+      </div>
+      <p><strong>Jun 2026 -- Present.</strong> A self-directed study project on Xilinx GTX high-speed serial transceivers, targeting a simulation-only near-end PCS loopback link on Zynq-7100 (3.125 Gb/s, 8b/10b, CPLL).</p>
+      <ul>
+        <li>Worked through transceiver architecture, clocking/refclk selection, and reset sequencing, plus a bring-up FSM that decides when byte alignment is trustworthy enough to arm a data checker.</li>
+        <li>Documented the design bottom-up in a decision log (D-001--D-012) covering datapath width, clock domains, and a verification/test plan; currently formalizing the K-char framing and checker FSM ahead of RTL.</li>
+      </ul>
+      <div class="tag-list compact">
+        <span>Zynq-7100</span>
+        <span>Kintex-7 GTX</span>
+        <span>3.125 Gb/s</span>
+        <span>8b/10b</span>
+        <span>CPLL</span>
+        <span>Vivado</span>
       </div>
     </div>
   </article>

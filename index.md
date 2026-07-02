@@ -49,10 +49,10 @@ title: Home
       </div>
     </article>
     <article class="timeline-item">
-      <span class="timeline-date">May 2026 -- Present</span>
+      <span class="timeline-date">Feb 2026 -- Jun 2026</span>
       <div>
-        <h3>EE_Acceleration / Electromagnetic FDTD FPGA Accelerator</h3>
-        <p>Exploring SystemVerilog fixed-point datapaths, BRAM-backed field storage, CORDIC source generation, Vivado/XSim verification, and renderer integration for an FDTD acceleration project.</p>
+        <h3>Real-Time Electromagnetic FDTD Accelerator with 3D HDMI Renderer</h3>
+        <p>Built a hardware-validated 2D FDTD electromagnetic solver on PYNQ-Z1 (Q3.13 datapaths, CORDIC source, PML boundaries, ping-pong BRAM buffers), integrated a 3D ray-march renderer to HDMI with PS/Python runtime camera control, and closed timing at 100 MHz.</p>
       </div>
     </article>
     <article class="timeline-item">
@@ -79,6 +79,21 @@ title: Home
   </div>
   <div class="project-grid">
     <article class="project-card">
+      <img src="{{ '/assets/img/project-ee-acceleration.jpg' | relative_url }}" alt="FDTD FPGA accelerator project preview">
+      <div class="project-card-body">
+        <h3>Real-Time Electromagnetic FDTD Accelerator + 3D HDMI Renderer</h3>
+        <p>Hardware-validated 2D FDTD solver on PYNQ-Z1 with a 3D ray-march renderer driving a live EM wave to HDMI, PS/Python camera control, and timing closed at 100 MHz.</p>
+        <div class="tag-list compact">
+          <span>SystemVerilog</span>
+          <span>Zynq-7020</span>
+          <span>Q3.13</span>
+          <span>CORDIC</span>
+          <span>PML</span>
+          <span>HDMI</span>
+        </div>
+      </div>
+    </article>
+    <article class="project-card">
       <img src="{{ '/assets/img/FPGA_WANd.jpg' | relative_url }}" alt="FPGA Wand project preview">
       <div class="project-card-body">
         <h3>FPGA Wand / PYNQ-Z1 Vision System</h3>
@@ -89,20 +104,6 @@ title: Home
           <span>AXI DMA</span>
           <span>OpenCV</span>
           <span>UDP</span>
-        </div>
-      </div>
-    </article>
-    <article class="project-card">
-      <img src="{{ '/assets/img/project-ee-acceleration.jpg' | relative_url }}" alt="FDTD FPGA project preview">
-      <div class="project-card-body">
-        <h3>EE_Acceleration / FDTD FPGA Accelerator</h3>
-        <p>Current SystemVerilog exploration of fixed-point FDTD solver datapaths, BRAM field storage, CORDIC source generation, and Vivado timing/implementation flow.</p>
-        <div class="tag-list compact">
-          <span>SystemVerilog</span>
-          <span>Q3.13</span>
-          <span>BRAM</span>
-          <span>CORDIC</span>
-          <span>Vivado</span>
         </div>
       </div>
     </article>
@@ -138,7 +139,14 @@ title: Home
     <span>Zynq-7000</span>
     <span>PS/PL integration</span>
     <span>AXI DMA</span>
-    <span>AXI4-Stream/Lite basics</span>
+    <span>AXI4-Stream/Lite</span>
+    <span>Q-format fixed point</span>
+    <span>CORDIC</span>
+    <span>FDTD / stencil compute</span>
+    <span>PML</span>
+    <span>CDC / async FIFO</span>
+    <span>HDMI / DVI</span>
+    <span>timing closure</span>
     <span>OpenCV</span>
     <span>UDP sockets</span>
     <span>ESP32</span>

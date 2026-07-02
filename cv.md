@@ -29,7 +29,7 @@ permalink: /cv/
   <div class="skill-grid">
     <div>
       <h3>FPGA / Digital Design</h3>
-      <p>SystemVerilog, Verilog, FSMs, RTL datapaths, pipelined CPU basics, AXI4-Stream/Lite basics, AXI DMA usage, BRAM/FIFO basics, Vivado</p>
+      <p>SystemVerilog, Verilog, FSMs, pipelined RTL datapaths, Q-format fixed point, CORDIC, FDTD/stencil compute, PML, CDC/async-FIFO, BRAM ping-pong buffering, AXI4-Stream/Lite, AXI DMA, HDMI/DVI, timing closure, Vivado</p>
     </div>
     <div>
       <h3>Embedded / Linux</h3>
@@ -52,6 +52,25 @@ permalink: /cv/
     <article class="portfolio-card">
       <div class="portfolio-card-header">
         <div>
+          <h3>Real-Time Electromagnetic FDTD Accelerator with 3D HDMI Renderer</h3>
+          <p class="card-meta">Feb 2026 -- Jun 2026</p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/TahaMunir2/ElectroMagnetic-FPGA-3D-Renderer">GitHub</a>
+          <a href="https://github.com/TahaMunir2/ElectroMagnetic-FPGA-3D-Renderer#readme">README</a>
+        </div>
+      </div>
+      <p class="tech-line">SystemVerilog, Zynq-7020 / PYNQ-Z1, Q3.13 fixed point, CORDIC, PML, BRAM, AXI GPIO, HDMI</p>
+      <ul class="compact-list">
+        <li>Built and hardware-validated a 2D FDTD electromagnetic solver on PYNQ-Z1 (Q3.13 datapaths, CORDIC source, PML boundaries, ping-pong BRAM buffers), scaled from 64x64 to a 128x128 four-lane engine.</li>
+        <li>Integrated a 3D ray-march renderer (100 MHz core, async-FIFO to a 25 MHz pixel domain) driving a live propagating EM wave to HDMI via rgb2dvi, with PS/Python runtime control of camera vectors, source, and display mode over AXI GPIO.</li>
+        <li>Closed timing at 100 MHz (WNS +0.393 ns, BRAM 105/140, DSP 179/220) and debugged an energy runaway, an AXI address-map reorder bug, and a DSP-blowup march-step constraint on real hardware.</li>
+      </ul>
+    </article>
+
+    <article class="portfolio-card">
+      <div class="portfolio-card-header">
+        <div>
           <h3>FPGA Wand / PYNQ-Z1 Vision System</h3>
           <p class="card-meta">Feb 2026 -- Mar 2026</p>
         </div>
@@ -65,25 +84,6 @@ permalink: /cv/
         <li>Built a PYNQ-Z1 vision prototype integrating OpenCV camera capture, PS-side preprocessing, AXI DMA transfer, FPGA-side centroid extraction, MMIO readback, and UDP point streaming.</li>
         <li>Implemented a simple AXI4-Stream RTL module for thresholded-frame centroid accumulation and exposed compact results through AXI-Lite/MMIO.</li>
         <li>Debugged camera initialization, DMA transfer behavior, overlay/HWH mismatches, repeated frames, and threshold noise during real hardware bring-up.</li>
-      </ul>
-    </article>
-
-    <article class="portfolio-card">
-      <div class="portfolio-card-header">
-        <div>
-          <h3>EE_Acceleration / Electromagnetic FDTD FPGA Accelerator</h3>
-          <p class="card-meta">May 2026 -- Present</p>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/TahaMunir2/ElectroMagnetic-FPGA-3D-Renderer">GitHub</a>
-          <a href="https://github.com/TahaMunir2/ElectroMagnetic-FPGA-3D-Renderer#readme">README</a>
-        </div>
-      </div>
-      <p class="tech-line">SystemVerilog, Vivado/XSim, Q3.13 fixed point, BRAM, CORDIC, Python reference model, FDTD</p>
-      <ul class="compact-list">
-        <li>Exploring fixed-point FPGA implementation for FDTD simulation, focusing on datapath construction, BRAM-backed field storage, and module integration.</li>
-        <li>Implemented Q3.13 RTL blocks for field updates, CORDIC-based source generation, top-level control, and early solver/renderer interface wiring.</li>
-        <li>Used Python-assisted verification with Verilator/XSim and checked Vivado implementation behavior for a small 100 MHz solver prototype.</li>
       </ul>
     </article>
 
@@ -121,6 +121,20 @@ permalink: /cv/
       <ul class="compact-list">
         <li>Implemented a simplified Linux shell supporting command parsing, fork/exec, cd, pipes, and I/O redirection.</li>
         <li>Debugged child-process reaping, file-descriptor handling, nested parsing, and a small raw-mode line editor with tab completion.</li>
+      </ul>
+    </article>
+
+    <article class="portfolio-card">
+      <div class="portfolio-card-header">
+        <div>
+          <h3>GTX High-Speed Serial Transceiver Loopback</h3>
+          <p class="card-meta">Jun 2026 -- Present &middot; self-directed, simulation</p>
+        </div>
+      </div>
+      <p class="tech-line">Zynq-7100, Kintex-7 GTX, 3.125 Gb/s, 8b/10b, CPLL, near-end PCS loopback, Vivado</p>
+      <ul class="compact-list">
+        <li>Self-directed study of Xilinx GTX transceivers, working through architecture, clocking, reset sequencing, and 8b/10b framing toward a simulation-only near-end PCS loopback on Zynq-7100.</li>
+        <li>Captured the design bottom-up in a decision log (D-001--D-012) and verification plan, including a bring-up FSM for byte-alignment stability; formalizing the checker FSM ahead of RTL.</li>
       </ul>
     </article>
   </div>
